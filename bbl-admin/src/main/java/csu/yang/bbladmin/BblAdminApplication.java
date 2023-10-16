@@ -7,9 +7,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 @SpringBootApplication
 @MapperScan("csu.yang.bbladmin.mapper")
 public class BblAdminApplication {
-
     public static void main(String[] args) {
         SpringApplication.run(BblAdminApplication.class, args);
     }
-
 }
