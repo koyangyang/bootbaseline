@@ -17,7 +17,8 @@
     <packaging>pom</packaging>
 
     <modules>
-        <module>bbl-admin</module>
+        <module>bbl-web</module>
         <module>bbl-recommender</module>
+        <module>bbl-user</module>
     </modules>
 </project>

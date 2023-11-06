@@ -1,0 +1,13 @@
+mybatis-plus:
+    configuration:
+        log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+spring:
+    datasource:
+        driver-class-name: com.mysql.cj.jdbc.Driver
+        password: xxx
+        type: com.alibaba.druid.pool.DruidDataSource
+        url: jdbc:mysql://x:3306/xxx?useSSL=true&useUnicode=false&characterEncoding=utf-8&serverTimezone=UTC
+        username: xxx
+    mvc:
+        pathmatch:
+            matching-strategy: ant_path_matcher
